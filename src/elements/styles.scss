@@ -1,0 +1,17 @@
+.input-search {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  background-color: rgba(26, 26, 26, 0.5);
+  border-radius: 20px;
+  padding: 8px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .input-search {
+    border-radius: 8px;
+    padding: 2px;
+    font-size: 12px;
+  }
+}

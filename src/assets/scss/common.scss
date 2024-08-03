@@ -1,0 +1,27 @@
+.fs16w400 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  color: white;
+}
+
+.fs16w700 {
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .fs16w400 {
+    font-size: 14px !important;
+    line-height: 19px !important;
+  }
+
+  .fs16w700 {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
